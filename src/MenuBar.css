@@ -1,0 +1,55 @@
+/* Dark Background */
+
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  background-color: #212223;
+  border: 10px solid  #303134;
+  border-radius: 20px;
+  max-width: 400px; /* Adjust dropdown width */
+}
+/* Customize Scrollbar for Dropdown */
+.custom-scroll::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(170, 169, 170, 0.9); /* Color of the scrollbar handle */
+  border-radius: 4px; /* Rounded edges for the scrollbar handle */
+  border: 2px solid rgba(33, 32, 34, 0); /* Adds a border to the scrollbar handle */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(57, 56, 58); /* Color on hover */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: "303134" ;/* Background color of the scrollbar track */
+  border-radius: 4px; /* Rounded edges for the track */
+}
+
+.custom-scroll::-webkit-scrollbar-track:hover {
+  background-color: rgb(61, 18, 92); /* Slightly lighter background on hover */
+}
+
+/* Add visual cue when dragging */
+.custom-scroll img:active {
+  opacity: 0.6; /* Make the dragged item semi-transparent */
+  cursor: grabbing; /* Indicate active dragging */
+}
+
+.custom-scroll {
+  pointer-events: auto;
+}
+
+.draggable-item {
+  border-radius: 10px;
+  cursor: grab;
+  transition: background-color 0.3s ease; /* Optional smooth transition */
+}
+
+.draggable-item:hover {
+  background-color: rgb(55, 54, 55);
+  padding-top: 5px;
+}
+

@@ -1,0 +1,16 @@
+export const loginimage = process.env.PUBLIC_URL + "/img/login.jpg";
+export const catimg = process.env.PUBLIC_URL + "/img/download.jpg";
+export const orangecat = process.env.PUBLIC_URL + "/img/orangecat.jpg";
+export const blackcat = process.env.PUBLIC_URL + "/img/blackcat.jpg"; 
+export const YouTube = process.env.PUBLIC_URL + "/img/Youtube.png";
+export const google = process.env.PUBLIC_URL + "/img/google1.png";
+export const facebook = process.env.PUBLIC_URL + "/img/facebook.png";
+export const twitter = process.env.PUBLIC_URL + "/img/twitter.png";
+export const instagram = process.env.PUBLIC_URL + "/img/instagram.png";
+export const linkedin = process.env.PUBLIC_URL + "/img/linkedin.png";
+export const pinterest = process.env.PUBLIC_URL + "/img/pinterest.png";
+export const whatsapp = process.env.PUBLIC_URL + "/img/whatsapp.png";
+export const GMap = process.env.PUBLIC_URL + "/img/Map.png";
+export const Drive = process.env.PUBLIC_URL + "/img/Drive.jpg";
+export const Gemini = process.env.PUBLIC_URL + "/img/Gemini.png";
+export const Gmail = process.env.PUBLIC_URL + "/img/Gmail.png";
